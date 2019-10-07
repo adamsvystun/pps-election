@@ -114,7 +114,6 @@ def k_means_clustering():
     pass
 
 def get_initial_triangles(voters: List[Voter], n_levels: int, seed: int = 1234) -> List[Polygon]:
-    # TODO: Derek
     np.random.seed(seed)
     return combined_partition(n_levels, voters)
 
